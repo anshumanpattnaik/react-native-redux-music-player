@@ -1,5 +1,5 @@
 export const BASE_URL = 'https://api.soundcloud.com';
-export const CLIENT_ID = '6b76014cda34badd69a0e2d02cbb9bb3';
+export const CLIENT_ID = 'YOUR_SOUND_CLOUD_CLIENT_ID';
 export const FETCH_TRACKS = 'FETCH_TRACKS';
 export const SELECT_SONGS = 'SELECT_SONGS';
 export const PLAY_SONGS = 'PLAY_SONGS';
