@@ -16,11 +16,6 @@ export const fetchTracksSuccess = data => ({
     payload: data,
 });
 
-export const fetchPlaylistsSuccess = data => ({
-    type: FETCH_PLAYLISTS,
-    payload: data,
-});
-
 export const fetchTracks = () => dispatch => {
     fetch(BASE_URL+'/tracks?client_id='+CLIENT_ID+'&filter=public')
         .then(res => res.json())
